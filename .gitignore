@@ -1,0 +1,46 @@
+# Data files (never push these)
+data/raw/
+data/report/
+previous codes/
+*.parquet
+*.csv
+*.gz
+
+# Specific file
+secrets.json
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# data files
+
+
+# Spark / Scala / sbt
+metastore_db/
+spark-warehouse/
+derby.log
+target/
+project/target/
+.bsp/
+.metals/
+.bloop/
+cache_demo.ipynb
+Common Transformation in pyspark.ipynb
+Day1-Exercise.ipynb
+first_notebook.ipynb
+Handle Correpated Data.ipynb
+JDBC datasource connection practice.ipynb
+Join Strategies - Broadcast & Shuffle join.ipynb
+Join Types in pyspark & SQL.ipynb
+Read_unstructured_data_in_pyspark.ipynb
+Reading Json file using Pyspark.ipynb
+Reading_different_csv_files_day2.ipynb
+Spark Read Write Parquet.ipynb
+UDF creation.ipynb
+ui_demo.ipynb
+Work with Arrays, Structs & JSON Handling PySpark.ipynb
+Working_with_numbers_string_dates and nulls.ipynb
+Write Options in Pyspark.ipynb
