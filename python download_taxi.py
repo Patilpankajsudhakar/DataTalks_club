@@ -5,7 +5,9 @@ import urllib.request
 from urllib.error import HTTPError, URLError
 from pathlib import Path
 
+# url prefix for taxi trip data
 URL_PREFIX = "https://d37ci6vzurychx.cloudfront.net/trip-data"
+
 
 
 def main():
